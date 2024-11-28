@@ -36,8 +36,7 @@ export default function Layout() {
             {/* Navigation */}
             <nav className="flex space-x-4">
               <NavLink to="/">Home</NavLink>
-              <NavLink to="/monkey">Monkey</NavLink>
-              <NavLink to="/alpha">Alpha</NavLink>
+              <NavLink to="/products">Products</NavLink>
             </nav>
           </div>
         </div>

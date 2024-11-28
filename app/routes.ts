@@ -4,12 +4,6 @@ export default [
   // foo
   layout('routes/layout.tsx', [
     index('routes/home.tsx'),
-    route('monkey', 'routes/monkey.tsx'),
-    route(
-      'alpha',
-      'routes/alpha/index.tsx',
-      // routes
-      [route('beta', 'routes/beta.tsx')],
-    ),
+    route('products', 'routes/products/index.tsx', [route(':pid', 'routes/products/product-detail.tsx')]),
   ]),
 ] satisfies RouteConfig

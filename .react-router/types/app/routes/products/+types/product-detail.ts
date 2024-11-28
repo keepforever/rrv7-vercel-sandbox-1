@@ -1,19 +1,20 @@
 // React Router generated types for route:
-// routes/alpha/index.tsx
+// routes/products/product-detail.tsx
 
 import type * as T from "react-router/route-module"
 
 import type { Info as Parent0 } from "../../../+types/root"
 import type { Info as Parent1 } from "../../+types/layout"
+import type { Info as Parent2 } from "./index"
 
-type Module = typeof import("../index")
+type Module = typeof import("../product-detail")
 
 export type Info = {
-  parents: [Parent0, Parent1],
-  id: "routes/alpha/index"
-  file: "routes/alpha/index.tsx"
-  path: "alpha"
-  params: {}
+  parents: [Parent0, Parent1, Parent2],
+  id: "routes/products/product-detail"
+  file: "routes/products/product-detail.tsx"
+  path: ":pid"
+  params: {"pid": string}
   module: Module
   loaderData: T.CreateLoaderData<Module>
   actionData: T.CreateActionData<Module>
