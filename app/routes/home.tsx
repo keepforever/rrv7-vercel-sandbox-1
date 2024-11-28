@@ -11,7 +11,7 @@ export function loader({ context }: Route.LoaderArgs) {
 
 export default function Home({ loaderData }: Route.ComponentProps) {
   return (
-    <div className="min-h-screen bg-gray-100 px-4 py-12 sm:px-6 lg:px-8">
+    <div className="bg-gray-100 px-4 py-12 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-3xl">
         <h1 className="mb-8 text-center text-4xl font-bold text-gray-900">Home.tsx</h1>
 
