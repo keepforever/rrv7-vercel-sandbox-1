@@ -16,7 +16,7 @@ app.use(
     build: () => import('virtual:react-router/server-build'),
     getLoadContext() {
       return {
-        VALUE_FROM_VERCEL: 'Hello from Vercel',
+        VALUE_FROM_VERCEL: 'This text is set on the VALUE_FROM_VERCEL key in the load context',
       }
     },
   }),
